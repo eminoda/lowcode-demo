@@ -1,7 +1,7 @@
 <template>
   <a-modal v-model="visible" :title="title" @ok="handleOk">
     <div class="dialog-content">
-      <img src="/myLib/logo.png" alt="" width="100px" height="100px" />
+      <img src="../assets/logo.png" alt="" width="100px" height="100px" />
       <slot />
     </div>
   </a-modal>
